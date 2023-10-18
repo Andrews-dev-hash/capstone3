@@ -40,7 +40,7 @@ function App() {
 
   // Used to check if the user information is properly stored upon login and the localStorage information is cleared upon logout
   useEffect(() => {
-    console.log(user);
+    // console.log(user);
     //use to get user details also authorization
     fetch(`https://nyosh-kick.onrender.com/users/details`, {
       headers: {
